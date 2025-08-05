@@ -51,7 +51,9 @@
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem 2rem;
+  color: var(--el-text-color-primary);
 }
+
 .title {
   font-size: 2rem;
   margin-bottom: 1.5rem;
@@ -62,13 +64,11 @@
 .section h2 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
-  color: #333;
 }
 .section p,
 .section ul {
   font-size: 1rem;
   line-height: 1.6;
-  color: #555;
 }
 .section ul {
   padding-left: 1.2rem;

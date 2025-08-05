@@ -4,7 +4,7 @@
     <!-- Header -->
     <header class="topbar">
       <span class="logo">
-        {{ locale == "zh" ? "吃什么" : "What to eat" }}
+        {{ locale == "zh" ? "吃什么?" : "What to eat?" }}
       </span>
       <el-space>
         <el-icon @click="toggle" style="cursor: pointer">
