@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // ──--- add these two (or at least "module") ───────────────
+    "target": "ESNext", // modern JS syntax ok
+    "module": "ESNext", // <-- enables import.meta
+    // ─────────────────────────────────────────────────────────
+
+    "moduleResolution": "Node",
+    "baseUrl": ".", // required for the @/* alias
+    "paths": {
+      "@/*": ["src/*"] // keep your alias (add /* on RHS)
+    },
+
+    "types": ["vite/client"], // gives typings for import.meta.env
+    "checkJs": true, // optional: enable JS type-checking
+    "allowJs": true // optional: allow .js files
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

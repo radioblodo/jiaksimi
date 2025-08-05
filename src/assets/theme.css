@@ -1,0 +1,67 @@
+/* import this once in main.ts – see step 4 */
+
+body {
+  font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.pill {
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 14px;
+  margin: 4px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.15s;
+}
+
+.pill.veg {
+  background: #e8f7e9;
+  color: #38a169;
+} /* green   */
+.pill.meat {
+  background: #ffecec;
+  color: #d64545;
+} /* red     */
+.pill.seafood {
+  background: #e6f4ff;
+  color: #1565c0;
+}
+.pill.tofu_eggs {
+  background: #f3e8ff;
+  color: #6a1b9a;
+}
+.pill.staple {
+  background: #fff7e5;
+  color: #a65e00;
+}
+.pill.sauce_paste {
+  background: #fef3f2;
+  color: #b42318;
+}
+.pill.spice_aromatic {
+  background: #f1f5f9;
+  color: #334155;
+}
+.pill.herb {
+  background: #ecfdf5;
+  color: #047857;
+}
+.pill.other {
+  background: #f4f4f5;
+  color: #3f3f46;
+}
+.pill.staple {
+  background: #fff7e5;
+  color: #d97706;
+} /* orange  */
+.pill.tool {
+  background: #e8f4ff;
+  color: #2563eb;
+} /* blue    */
+
+.pill.selected {
+  filter: brightness(0.9);
+  border: 1px solid currentColor;
+}
